@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { Editor } from "./editor.tsx";
 import "./index.css";
-import "./use-worker";
+import "./user-worker.ts";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
